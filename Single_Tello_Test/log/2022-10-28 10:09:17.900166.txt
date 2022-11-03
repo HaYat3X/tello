@@ -1,0 +1,70 @@
+
+id: 0
+command: command
+response: b'ok'
+start time: 2022-10-28 10:09:17.900612
+end_time: 2022-10-28 10:09:18.522456
+duration: 0.621844
+
+id: 1
+command: takeoff
+response: b'ok'
+start time: 2022-10-28 10:09:18.522518
+end_time: 2022-10-28 10:09:25.478330
+duration: 6.955812
+
+id: 2
+command: up 50
+response: b'ok'
+start time: 2022-10-28 10:09:27.483544
+end_time: 2022-10-28 10:09:30.098962
+duration: 2.615418
+
+id: 3
+command: speed 10
+response: b'ok'
+start time: 2022-10-28 10:09:32.104153
+end_time: 2022-10-28 10:09:32.138959
+duration: 0.034806
+
+id: 4
+command: forword 80
+response: b'unknown command: forword'
+start time: 2022-10-28 10:09:32.139032
+end_time: 2022-10-28 10:09:32.191329
+duration: 0.052297
+
+id: 5
+command: down 80
+response: b'ok'
+start time: 2022-10-28 10:09:33.196472
+end_time: 2022-10-28 10:09:39.686345
+duration: 6.489873
+
+id: 6
+command: forword 80
+response: b'unknown command: forword'
+start time: 2022-10-28 10:09:39.686443
+end_time: 2022-10-28 10:09:39.729828
+duration: 0.043385
+
+id: 7
+command: up 80
+response: b'error Not joystick'
+start time: 2022-10-28 10:09:40.734953
+end_time: 2022-10-28 10:09:42.134315
+duration: 1.399362
+
+id: 8
+command: forword 80
+response: b'unknown command: forword'
+start time: 2022-10-28 10:09:42.134370
+end_time: 2022-10-28 10:09:42.179144
+duration: 0.044774
+
+id: 9
+command: land
+response: b'ok'
+start time: 2022-10-28 10:09:44.184241
+end_time: 2022-10-28 10:09:45.188736
+duration: 1.004495

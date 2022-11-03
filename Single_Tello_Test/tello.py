@@ -5,6 +5,7 @@ from stats import Stats
 
 class Tello:
     def __init__(self):
+        # ここ弄ればいける？
         self.local_ip = ''
         self.local_port = 8889
         self.socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  # socket for sending cmd
@@ -16,6 +17,7 @@ class Tello:
         self.receive_thread.start()
 
         self.tello_ip = '192.168.10.1'
+        # ドローンのIP
         self.tello_port = 8889
         self.tello_adderss = (self.tello_ip, self.tello_port)
         self.log = []
